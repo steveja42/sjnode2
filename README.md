@@ -1,7 +1,3 @@
- ✕ missing peer @types/node@"*"
-Peer dependencies that should be installed:
-  @types/node@"*"
-
 #Netlify lambda serverless functions
 
 # Up and Running with Serverless Functions (Jamstack Explorers)
