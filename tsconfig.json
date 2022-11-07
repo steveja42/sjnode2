@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"lib": [
+			"es2020"
+		],
+		"target": "es2020",
+		"noImplicitAny": false,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"outDir": "dist",
+		"baseUrl": ".",
+		"rootDir": "functions",
+		"paths": {
+			"*": [
+				"node_modules/*",
+				"src/types/*"
+			]
+		},
+	},
+	"include": [
+		"functions/**/*"
+	],
+	"exclude": [
+		"node_modules/**/*"
+	]
+}
